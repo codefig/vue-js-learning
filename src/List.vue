@@ -2,8 +2,8 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12">
-               <h1>Filters and Mixins </h1>
-               <p> {{text | toUpperCase|to-lowercase }}</p>
+               <h1>Filters and Mixins from List </h1>
+               <p> {{text }}</p>
                <input type="text" v-model="filterText">
                <hr>
                <ul>
@@ -22,10 +22,6 @@
         		text : "Hello world",
         		fruits : ['Apple', 'Mango', 'banana'],
         		filterText : ''
-        	}
-        }, filters :{
-        	toUpperCase(value) {
-        		return value.toUpperCase();
         	}
         },computed: {
         	// value will only be precomputed if it matches the function 
