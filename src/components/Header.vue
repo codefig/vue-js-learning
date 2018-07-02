@@ -4,7 +4,7 @@
 			<a class="navbar-brand" href="#">Title</a>
 			<ul class="nav navbar-nav">
 				<router-link to="/" tag="li" active-class="active">Home</router-link>
-				<router-link to="/user" tag="li" active-class="active"> Users </router-link> 
+				<router-link to="/user/10" tag="li" active-class="active"> Users </router-link> 
 			</ul>
 		</div>
 	</div>
