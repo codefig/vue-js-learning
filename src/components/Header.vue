@@ -9,5 +9,5 @@
 		</div>
 	</div>
 </template>
-<link rel="stylsheet" href="../assets/bootstrap.css">
+
 <style scoped></style>
